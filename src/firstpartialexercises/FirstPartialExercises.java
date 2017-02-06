@@ -15,7 +15,13 @@ public class FirstPartialExercises {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //main para checar MyRectangle
+    MyRectangle rectangle = new MyRectangle(4,5,8,9);  //topLeft(1,7) bottomRight(4,2)
+    System.out.println(rectangle);  //Prints the String
+    System.out.println("Area is " + rectangle.getArea());  //Print area of the rectangle
+    System.out.println("Perimeter is " + rectangle.getPerimeter());  //Print perimeter of the rectangle
     }
-    
 }
+    
+    
+

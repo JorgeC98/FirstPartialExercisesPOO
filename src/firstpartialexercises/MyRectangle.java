@@ -32,11 +32,11 @@ public class MyRectangle {
     //GET & SET
     //SACAR EL AREA
     public double getArea() {
-        return v1.distance(v2) * v1.distance(v2);
+        return ((Math.abs(v1.getX()-v2.getX()))*(Math.abs(v1.getY()-v2.getY())));
     }
    
     //SACAR PERIMETRO
     public double getPerimeter() {
-        return v1.distance(v2) + v1.distance(v2);
+        return (Math.abs(v1.getX()-v2.getX())+Math.abs(v1.getY()-v2.getY()))*2;
     }
 }
